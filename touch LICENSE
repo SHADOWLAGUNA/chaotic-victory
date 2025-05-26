@@ -1,1 +1,22 @@
 
+### 4. **Mengelola Branches dan Pull Requests**
+Untuk pengelolaan kolaborasi, Anda bisa menggunakan strategi branching yang terorganisir. Misalnya:
+
+- **`main`**: Branch utama yang berisi kode stabil untuk rilis.
+- **`develop`**: Branch pengembangan yang berisi fitur-fitur terbaru.
+- **`feature/<fitur>`**: Untuk fitur tertentu yang sedang dikerjakan, misalnya `feature/hero-02`.
+- **`bugfix/<bug>`**: Untuk memperbaiki bug tertentu, misalnya `bugfix/ui-bug`.
+
+Setiap pengembang bekerja di branch terpisah, dan setelah selesai, mereka akan membuat pull request ke branch `develop` atau `main`.
+
+### 5. **Pembaruan Kode & Kolaborasi**
+- **Push secara teratur:** Setiap pengembang harus memastikan untuk mendorong perubahan mereka secara teratur ke GitHub, agar bisa dilihat oleh tim dan mencegah konflik.
+- **Pull Request:** Setiap perubahan besar atau fitur baru harus melalui proses review dengan pull request. Pastikan untuk menulis deskripsi jelas mengenai perubahan yang dilakukan.
+
+### 6. **Dokumentasi Desain**
+Pada folder `Documentation/`, Anda dapat menyimpan berbagai dokumen desain seperti:
+- **Desain gameplay** (untuk menjelaskan mekanisme permainan, kemampuan hero, dll.)
+- **Desain UI** (untuk menjelaskan layout HUD, menu, dll.)
+- **Desain level** (untuk menjelaskan peta dan elemen desain lainnya)
+
+Contoh struktur file di dalam `Documentation/DesignDocuments/`:
