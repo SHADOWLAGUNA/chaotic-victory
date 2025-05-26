@@ -1,0 +1,34 @@
+# Unreal Engine
+# Direktori sementara dan file build
+*.log
+*.vs
+*.vscode
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.xcodeproj
+*.cproject
+
+# Unity
+# Direktori build dan file sementara
+[L|l]ibrary/
+[T|t]emp/
+[T|t]argets/
+[T|t]estBuilds/
+[P|p]rojectSettings/
+Build/
+Builds/
+UserSettings/
+
+# Visual Studio/IDE
+.vs/
+.idea/
+.vscode/
+
+# Sistem operasi
+.DS_Store
+Thumbs.db
+
+# File terkait paket npm atau dependensi lainnya
+node_modules/
